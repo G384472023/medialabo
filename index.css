@@ -1,3 +1,33 @@
-p {
-	color: navy;
+h1 {
+	color: #fff;
+	background: linear-gradient(#fa709a, #fee140);
+}
+h2 {
+	font-family: cursive;
+	color: #fff;
+	background: linear-gradient(#9be15b, #00e3ae);
+}
+h3 {
+    background:linear-gradient(transparent 60%,#c8f1ff 60%)
+}
+
+a:link {
+    color: #007bff;
+    text-decoration: none;
+}
+a:visited {
+	color: purple;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.theme {
+	color: orange;
+}
+.html {
+    color: #28a745;
+}
+.css {
+	color: red;
 }
