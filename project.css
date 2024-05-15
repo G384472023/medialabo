@@ -1,0 +1,39 @@
+h1 {
+	color: #fff;
+	background: linear-gradient(#209cff, #68e0cf);
+}
+.result {
+    color: #454545;
+    font-size: 20px;
+    text-shadow: 3px 3px #81bedb;
+    font-weight: bold;
+}
+.op {
+    color:aquamarine;
+    font-size: 18px;
+}
+.ed {
+    color: #ff6666;
+    font-size: 18px;
+}
+.ch {
+    color: #006633;
+    font-size: 18px;
+}
+.ti {
+    color: #cc9900;
+    font-size: 18px;
+}
+.ex {
+    color: #ffccff;
+    font-size: 18px;
+}
+.ky {
+    color: #ccccff;
+    font-size: 18px;
+}
+
+
+ul li {
+    margin-bottom: 15px;
+}
