@@ -22,3 +22,23 @@ function hantei() {
   // kotae と yoso が一致するかどうか調べて結果を出力
   // 課題3-1における出力先はコンソール
 }
+
+console.log(kaisu+"回目の予想: "+kotae);
+if (kaisu >= 4) {
+    console.log("答えは"+kotae+"でした.すでにゲームは終わっています");
+}
+if (kotae === hantei) {
+    console.log("正解です．おめでとう!");
+}
+if(kotae === 3){
+console.log("まちがい．残念でした答えは"+kotae+"です．");
+}
+if (kaisu <= 2) {
+    if (hantei < kotae) {
+        console.log("まちがい．答えはもっと大きいですよ");
+    } else {
+        console.log("まちがい．答えはもっと小さいですよ");
+    }
+}
+
+
