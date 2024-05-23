@@ -80,4 +80,10 @@ let data = {
 };
 
 /////////////////// 課題3-2 はここから書き始めよう
+console.log(data.start_time+"番組開始時刻");
+console.log(data.emd_time+"番組終了時刻");
+console.log(data.service.name+"チャンネル");
+console.log(data.title+"番組名");
+console.log(data.content+"番組説明分");
+console.log(data.act+"出演者");
 
