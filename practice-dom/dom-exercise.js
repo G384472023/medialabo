@@ -51,6 +51,6 @@ for (i of r ){
 for (let y of data){
 	let xau=document.querySelector('ul#location');
 	let li=document.createElement('li');
-	li.textContent=(y.name+'...緯度: '+y.lat+',経度'+y.lng);
-	xau.insertAdjacentElement('beforebegin',li);
+	li.textContent=(y.name+' ... 緯度:'+y.lat+', 経度'+y.lng);
+	xau.insertAdjacentElement('beforeend',li);
 }
