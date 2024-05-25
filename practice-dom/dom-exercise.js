@@ -43,10 +43,14 @@ let a = document.querySelector('div#phototable');
 a.insertAdjacentElement('afterbegin',p1);
 
 // 練習4-4 箇条書き削除プログラム
-let w=document.querySelector('ul#location');
-let ul=w.querySelectorAll('li');
-for (let li of ul){
-	li.remove();
+let r=document.querySelectorAll('ul#location > li');
+for (i of r ){
+	i.remove();
 }
 // 練習4-5 箇条書き追加プログラム
-
+for (let y of data){
+	let xau=document.querySelector('ul#location');
+	let li=document.createElement('li');
+	li.textContent=(y.name+'...緯度: '+y.lat+',経度'+y.lng);
+	xau.insertAdjacentElement('afterend',li);
+}
