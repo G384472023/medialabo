@@ -84,7 +84,7 @@ console.log("番組開始時刻 "+data.list.g1[0].start_time);
 console.log("番組終了時刻 "+data.list.g1[0].end_time);
 console.log("チャンネル "+data.list.g1[0].service.name);
 console.log("番組名 "+data.list.g1[0].title);
-console.log("番組サブタイトル "+data.list.g1[0].subtitle)
+console.log("番組サブタイトル "+data.list.g1[0].subtitle);
 console.log("番組説明分 "+data.list.g1[0].content);
 console.log("出演者 "+data.list.g1[0].act);
 
@@ -92,7 +92,11 @@ console.log("番組開始時刻 "+data.list.g1[1].start_time);
 console.log("番組終了時刻 "+data.list.g1[1].end_time);
 console.log("チャンネル "+data.list.g1[1].service.name);
 console.log("番組名 "+data.list.g1[1].title);
-console.log("番組サブタイトル "+data.list.g1[1].subtitle)
+console.log("番組サブタイトル "+data.list.g1[1].subtitle);
 console.log("番組説明分 "+data.list.g1[1].content);
 console.log("出演者 "+data.list.g1[1].act);
+
+let div=document.querySelector('div#result');
+let  = document.createElement('a');
+div.insertAdjacentElement('beforeend', ); 
 
