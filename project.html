@@ -4,28 +4,36 @@
     <meta charset="utf-8">
     <title>プロジェクト課題</title>
     <link rel="stylesheet" href="project.css">
-    <script src="tv-program.js" defer></script>
+    <script src="gourmet.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+
+
   </head>
   <body>
-    <h1>NHKの番組表</h1>
-    <li class="result">検索結果1件目</li>
-    <ul>
-        <li class="op">開始時刻: 2024年5月8日18:10:00</li>
-        <li class="ed">終了時刻: 2024年5月8日19:00:00</li>
-        <li class="ch">チャンネル: NHK総合</li>
-        <li class="ti">タイトル: 首都圏ネットワーク</li>
-        <li class="ex">番組説明:「首都圏のリアルがみえる50分間!最新ニュースを深掘り、経済や防災などの暮らしに役立つ地域情報も満載」</li>
-        <li class="ky">出演者:【キャスター】寺門亜衣子, 江原啓一郎,【フィールドリポーター】安藤佳祐,【気象キャスター】片岡美紀,【気象リポーター】黒田菜月</li>
-    </ul>
-    <li class="result">検索結果2件目</li>
-    <ul>
-        <li class="op">開始時刻: 2024年5月8日20:45:00</li>
-        <li class="ed">終了時刻: 2024年5月8日21:00:00</li>
-        <li class="ch">チャンネル: NHK総合</li>
-        <li class="ti">タイトル: 首都圏ニュース845</li>
-        <li class="ex">番組説明:「これさえ見ればきょう1日の首都圏のニュースや明日の気象情報がわかる」</li>
-        <li class="ky">出演者:【キャスター】芳賀健太郎,【気象キャスター】平井伸行</li>
-    </ul>
+    <h1>グルメの検索結果</h1>
+    <h2>お好きなジャンルを選んでください</h2>
+    <label for="kensaku"></label>
+    <select id="genre">
+      <option value="01">居酒屋</option>
+      <option value="02">ダイニングバー・バル</option>
+      <option value="03">創作料理</option>
+      <option value="04">和食</option>
+      <option value="05">洋食</option>
+      <option value="06">イタリアン・フレンチ</option>
+      <option value="07">中華</option>
+      <option value="08">焼肉・ホルモン</option>
+      <option value="09">アジア・エスニック料理</option>
+      <option value="10">各国料理</option>
+      <option value="11">カラオケ・パーティ</option>
+      <option value="12">バー・カクテル</option>
+      <option value="13">ラーメン</option>
+      <option value="14">カフェ・スイーツ</option>
+      <option value="15">その他グルメ</option>
+      <option value="16">お好み焼き・もんじゃ</option>
+      <option value="17">韓国料理</option>
+    </select>
+
+    <button id="print">検索</button>
     <div id="result"></div>
     </body>
 </html>
