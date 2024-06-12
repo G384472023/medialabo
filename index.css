@@ -35,17 +35,29 @@ a:hover {
     color: #28a745;
 }
 .css {
-	color: red;
+	color: #804000;
 }
 .js {
-	color: red;
+	color:#fa709a;
 }
 .dom {
-	color: red;
+	color:#305088;
 }
 .iv {
-	color: red;
+	color:firebrick;
 }
 .co {
-	color: red;
+	color:goldenrod;
+}
+.te{
+	color:#00e3ae;
+}
+.wo{
+	color:#ebd262;
+}
+.st{
+	color:#8c6b2a;
+}
+.su{
+	color:#d5455a;
 }
