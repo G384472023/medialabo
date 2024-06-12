@@ -25,9 +25,27 @@ a:hover {
 .th {
 	color: orange;
 }
+.pr {
+	color: #fa709a;
+}
+.ga {
+	color:dodgerblue;
+}
 .html {
     color: #28a745;
 }
 .css {
+	color: red;
+}
+.js {
+	color: red;
+}
+.dom {
+	color: red;
+}
+.iv {
+	color: red;
+}
+.co {
 	color: red;
 }
